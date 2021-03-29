@@ -1,12 +1,15 @@
 .container {
     display: flex;
-    justify-content: center;
+    /* justify-content: space-between; */
+    color: white;
+    justify-content: space-between;
 }
 
 .div1 {
   margin-right: 15px;
+  color: white;
 }
-
+/* 
 .div2 {
   margin-right: 15px;
 }
@@ -16,13 +19,35 @@
 }
 
 .div4 {
-
+  margin-right: 15px;
 }
 
 .div5 {
-
-
+  margin-right: 15px;
 }
 .div6 {
 
+} */
+
+.flex-container1 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  
+}
+
+.flex-item1 {
+  margin-right: 10px;
+}
+
+.flex-item2 {
+  margin-right: 10px;
+}
+
+.flex-item3 {
+  margin-right: 10px;
+}
+
+.flex-item4 {
+  margin-right: 10px;
 }
