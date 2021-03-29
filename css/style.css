@@ -2,7 +2,7 @@
     display: flex;
     /* justify-content: space-between; */
     color: white;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 .div1 {
@@ -31,7 +31,7 @@
 
 .flex-container1 {
   display: flex;
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
   margin-top: 30px;
   
 }
@@ -50,4 +50,16 @@
 
 .flex-item4 {
   margin-right: 10px;
+}
+
+.footer-nav {
+  margin-right: 30%;
+}
+
+.footer-date {
+  background-color: black;
+}
+
+.twn {
+  font-size: 10px;
 }
