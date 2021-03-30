@@ -1,304 +1,63 @@
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
-}
-
-a {
-  text-decoration: none;
-}
-
-.header {
-  margin-top: 50px;
-}
-
-.cover-l {
-  height: 25vh;
-}
-
-/* FONT CLASSES */
-
-.font-s-13 {
-  font-size: 13px;
-}
-
-.font-s-14 {
-  font-size: 14px;
-}
-
-.font-tittle {
-  font-size: 26px;
-  line-height: 26px;
-}
-
-.font-subtittle {
-  font-size: 26px;
-  line-height: 26px;
-}
-
-.line-h-32 {
-  line-height: 32px;
-}
-
-.line-h-21 {
-  line-height: 21px;
-}
-
-.fw-700 {
-  font-weight: 700;
-}
-
-.fw-500 {
-  font-weight: 500;
-}
-
-.fw-400 {
-  font-weight: 400;
-}
-
-.ff-arial {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.ff-sans-serif {
-  font-family: sans-serif;
-}
-
-/* FLEX CLASSES */
-.d-flex {
+.container {
   display: flex;
-}
-
-.fd-row {
-  flex-direction: row;
-}
-
-.fd-column {
   flex-direction: column;
 }
 
-.jc-s-between {
-  justify-content: space-between;
-}
-
-.jc-s-around {
+.container2 {
+  width: 500px;
+  display: flex;
+  margin: 0 auto;
   justify-content: space-around;
 }
 
-.jc-s-evenly {
-  justify-content: space-evenly;
-}
-
-.flex-center {
+.flex-container1 {
+  display: flex;
   justify-content: center;
-  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  font-size: 14PX;
 }
 
-.flex-v-center {
-  align-items: center;
+.event {
+  margin: 5px;
+  text-decoration-color: #aaa;
+} 
+
+a {
+  color:#AAA;
+  text-decoration: none;
 }
 
-.jc-f-end {
-  justify-content: flex-end;
+a:hover {
+  background-color:black;
 }
 
-.jc-f-start {
-  justify-content: start;
+.footer-nav {
+  margin: 0 auto;
 }
 
-/* POSITIONING CLASESS */
-
-.f-left {
-  float: left;
-}
-
-.f-right {
-  float: right;
-}
-
-.margin-10 {
-  margin: 0 10px;
-}
-
-.p-absolute {
-  position: absolute;
-}
-
-.p-relative {
-  position: relative;
-}
-
-/* COLOR CLASSES */
-.orange {
-  color: #f42;
-}
-
-.white {
-  color: #fff;
-}
-
-.black {
-  color: #000;
-}
-
-.gray {
-  color: hsla(0, 0%, 100%, 0.6);
-}
-
-.hard-gray {
-  color: #aaa;
-}
-
-/* SIZE CLASSES */
-.w-100 {
+.footer-date {
+  background-color:black;
+  color: white;
+  height: 80px;
   width: 100%;
+  align-self: center;
+  margin: 0 auto;
 }
 
-.h-100 {
-  height: 100%;
+.twn {
+  width: 40px;
+} 
+
+.stack {
+  color: black;
 }
 
-.padding-header {
-  padding: 5px;
+.gen-container {
+  background-color: black;
+  color: #555;
 }
 
-/* MEDIA QUERIES */
-
-@media (min-width: 768px) {
-  .d-none-mobile {
-    display: none;
-  }
-
-  .font-tittle {
-    font-size: 46px;
-    line-height: 46px;
-  }
-
-  .navbar {
-    height: 80px;
-  }
-
-  .cover-l {
-    width: 65%;
-    height: 50vh;
-  }
-
-  .header {
-    flex-direction: row;
-    margin-top: 82px;
-  }
-
-  .cover-r {
-    width: 35%;
-  }
-}
-
-@media (max-width: 768px) {
-  .top-nav {
-    display: none;
-  }
-
-  .bottom-menu {
-    display: none;
-  }
-}
-
-@media (min-width: 1024px) {
-  .nav-logo {
-    display: none;
-  }
-}
-
-/* HTML CLASSES */
-
-.navbar {
-  position: fixed;
-  top: 0;
-  border-bottom: 1px solid #eee;
-}
-
-.mobile {
-  background-color: #fff;
-  height: 100%;
-}
-
-.nav-logo {
-  background-color: #000;
-  width: 106px;
-}
-
-.nav-img {
-  height: 16px;
-  width: 66px;
-}
-
-.icon-nav-container {
-  border-left: 1px solid #eee;
-  width: 49px;
-  height: 48px;
-}
-
-.bottom-nav {
-  background-color: #fff;
-  height: 48px;
-  width: 100%;
-}
-
-.top-nav {
-  background-color: #000;
-  width: 100%;
-  height: 32px;
-}
-
-.top-menu {
-  list-style: none;
-  display: inline;
-  padding: 0 5px;
-}
-
-.h-white:hover {
-  color: #fff;
-}
-
-.h-black:hover {
-  color: #000;
-}
-
-.cover-r {
-  height: 50vh;
-}
-
-.cover-row {
-  height: 50%;
-}
-
-.bg-1 {
-  background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal-796x417.jpg");
-  background-position: center;
-  background-size: cover;
-}
-
-.shadow-cover {
-  background: #000;
-  opacity: 50%;
-  position: relative;
-  height: 100%;
-  width: 100%;
-}
-
-.tittle-header {
-  bottom: 0;
-  padding: 10px 20px;
-}
-
-.bg-2 {
-  background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Untitled-design-2021-01-26T112752.972-796x417.png");
-  background-position: center;
-  background-size: cover;
-}
-
-.bg-3 {
-  background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Gemini2-duplicates-monitor-alert-e1611566958933-796x420.png");
-  background-position: center;
-  background-size: cover;
+.img {
+  color: white;
 }
