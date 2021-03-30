@@ -303,4 +303,38 @@ a {
   background-size: cover;
 }
 
-mmnkjkkkd
+main-footer {
+  height: 257px;
+}
+
+.top-footer {
+  height: 190px;
+  padding-top: 42px;
+  padding-bottom: 28px;
+  background-color: #131313;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.social-links {
+  display: inherit;
+  width: auto;
+  margin: 0 auto;
+}
+
+.icon-circle {
+  background-color: #333;
+  border-radius: 50%;
+  padding: 10px;
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+}
+
+.footer-links {
+  color: #aaa;
+  font-size: 13px;
+  margin-top: 20px;
+}
