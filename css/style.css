@@ -302,3 +302,39 @@ a {
   background-position: center;
   background-size: cover;
 }
+
+.latest {
+  margin-bottom: 2em;
+  padding-top: 24px;
+}
+
+.distraction-title, h2 {
+  font-family: sans-serif;
+  font-size: 28px;
+  letter-spacing: -0.015em;
+}
+
+.distraction-title, h2, h3 {
+  color: #f42;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+h2 {
+  font-family: "avalon", sans-serif;
+  font-size: 28px;
+  color: #f42;
+  font-weight: 700;
+  line-height: 31px;
+}
+
+.latest-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+}
+
+.funding {
+  margin-bottom: 2em;
+}
