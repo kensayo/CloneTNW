@@ -10,33 +10,26 @@
   justify-content: space-around;
 }
 
-.div1 {
-  /* margin: 50px; */
-} 
-
 .flex-container1 {
   display: flex;
   justify-content: center;
   margin-top: 30px;
-  /* margin-right: 1200px; */
   margin-bottom: 50px;
   font-size: 14PX;
 }
 
 .event {
   margin: 5px;
-  /* background-color: white; */
   text-decoration-color: #aaa;
 } 
-
-a:hover {
-  background-color:black;
-}
 
 a {
   color:#AAA;
   text-decoration: none;
+}
 
+a:hover {
+  background-color:black;
 }
 
 .footer-nav {
