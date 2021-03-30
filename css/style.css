@@ -338,3 +338,28 @@ main-footer {
   font-size: 13px;
   margin-top: 20px;
 }
+
+.link-footer {
+  margin-left: 5px;
+  font-family: sans-serif;
+}
+
+.bottom-footer {
+  height: 97px;
+  padding-top: 39px;
+  padding-bottom: 39px;
+  background-color: #000;
+}
+
+.caption-footer {
+  text-align: center;
+  color: white;
+  display: block;
+}
+
+/* *, ::after, ::before {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  outline: none;
+  text-rendering: optimizeLegibility;
+} */
