@@ -996,6 +996,18 @@ h2 {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Snag_b1616b8-368x276.png");
 }
 
+.catalog4 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2015/03/MacBook-USB-C-Feat-Img-730x365.jpg");
+}
+
+.catalog5 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/1-copy-48-368x276.jpg");
+}
+
+.catalog6 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/Untitled-design-13-368x276.png");
+}
+
 /* responsive catalog */
 
 @media (min-width: 768px) {
