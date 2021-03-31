@@ -1319,3 +1319,37 @@ h3 a:hover {
   padding: 6px 0 6px 14px;
   position: relative;
 }
+
+@media (min-width: 768px) {
+  .topic {
+    margin-bottom: 24px;
+  }
+
+  .u-col-m-6 {
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+
+  [class*="u-col-"] {
+    padding: 10px;
+  }
+
+  .u-col-m-4 {
+    flex-basis: 33.3333333333%;
+    max-width: 33.3333333333%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .u-col-l-4 {
+    flex-basis: 33.3333333333%;
+    max-width: 33.3333333333%;
+  }
+
+  .u-col-l-3 {
+    flex-basis: 25%;
+    max-width: 25%;
+  }
+}
+
+
