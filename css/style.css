@@ -805,6 +805,84 @@ h2 {
   }
 }
 
+/* latest */
+
+.latest {
+  margin-bottom: 2em;
+  padding-top: 24px;
+}
+
+.latest-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+}
+
+.latest-row {
+  width: 100%;
+  padding: 8px 8px;
+  flex-direction: column;
+}
+
+.latest-container img {
+  object-fit: cover;
+  height: 75px;
+  width: 75px;
+  float: left;
+  margin-right: 15px;
+}
+
+.caption {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #aaa;
+  line-height: 18px;
+  font-weight: 400;
+  position: relative;
+  bottom: 0;
+}
+
+.tittle-content {
+  height: 100%;
+  float: right;
+}
+
+.latest-text {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 767px) {
+  .latest-container {
+    display: grid;
+    grid-template-areas:
+      "i1 i2 i3"
+      "i4 i5 i6"
+      "i7 i8 .";
+  }
+
+  .latest-row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .latest-row img {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .latest-container {
+    display: grid;
+    grid-template-areas:
+      "i1 i2 i3 i4"
+      "i5 i6 i7 i8";
+  }
+}
+
+
 /* catalog */
 [class*=" u-col-"],
 [class^="u-col-"] {
