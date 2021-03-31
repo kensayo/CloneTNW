@@ -214,7 +214,7 @@ h5 {
 }
 
 .maincontent {
-  padding-top: 90px;
+  padding-top: 100px;
   padding-bottom: 100px;
 }
 
@@ -237,13 +237,33 @@ summary {
 /* nav */
 
 .main-nav {
-  width: 100%;
   display: flex;
   justify-content: space-between;
   height: 48px;
   box-shadow: 0 0 32px rgb(0 0 0 / 15%);
+  width: 100%;
+}
+
+.navbar {
   position: fixed;
   z-index: 20;
+  width: 100%;
+}
+
+.yellow-info {
+  width: 100%;
+  height: 60px;
+  background-color: #fd3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #131313;
+}
+
+.announcement {
+  color: #555;
+  font-size: 14px;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 .menu-container {
@@ -313,8 +333,23 @@ li {
     height: 80px;
   }
 
+  .maincontent {
+    padding-top: 108px;
+  }
+
+  .yellow-info {
+    height: 30px;
+    justify-content: start;
+    padding-left: 110px;
+  }
+
   .nav-logo {
     padding-top: 32px;
+  }
+
+  .nav-logo:hover {
+    background-image: url("/img/tenor.gif");
+    background-size: cover;
   }
 
   .menu {
@@ -1063,6 +1098,11 @@ h2 {
 .access:hover {
   cursor: pointer;
   transform: scale(1.1);
+}
+
+.img-footer {
+  height: 10px;
+  width: auto;
 }
 
 /* stuff I need to put in the bottom so that linters doesn't complain */

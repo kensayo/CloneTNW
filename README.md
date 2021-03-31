@@ -3,7 +3,7 @@ Microverse HTML and CSS Week 2 Project
 
     HTML & CSS Week 1 project to practice responsive web design.
 
-![ScreenShot]()
+![ScreenShot](https://raw.githubusercontent.com/kensayo/TNW-wk2/principal/img/screenshot.jpg)
 
 ## Built With
 
@@ -18,7 +18,7 @@ Microverse HTML and CSS Week 2 Project
     
 ## Live Demo
 
-[Live Demo Link](https://kensayo.github.io/NYT-wk1/)
+[Live Demo Link](https://kensayo.github.io/TNW-wk2/)
     
 ## Getting Started
 
