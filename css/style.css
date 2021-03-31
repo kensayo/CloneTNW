@@ -302,190 +302,74 @@ a {
   background-position: center;
   background-size: cover;
 }
-/* 
-.latest {
+
+
+.funding {
   margin-bottom: 2em;
-  padding-top: 24px;
 }
 
+.funding-hdr {
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.funding-hdr h2 {
+  line-height: 32px;
+}
+
+.funding-hdr a {
+  margin-top: 1em;
+}
+
+.links-funding-hdr {
+  display: flex;
+  flex-direction: column;
+}
+
+.funding-hdr a {
+  margin-top: 1em;
+}
+
+a {
+  color: #f42;
+  text-decoration: none;
+}
+
+.u-row {
+  display: flex;
+  flex: 0 1 auto;
+  flex-flow: row wrap;
+  margin: 0;
+}
+
+.verticals {
+  margin-bottom: 2em;
+}
+
+.u-col-xs-12 {
+  flex-basis: 100%;
+  max-width: 100%;
+}
+
+[class*=" u-col-"], [class^="u-col-"] {
+  flex: 0 0 auto;
+  padding: 8px;
+  position: relative;
+}
+
+.funding-hdr h2 {
+  line-height: 32px;
+}
 .distraction-title, h2 {
   font-family: sans-serif;
   font-size: 28px;
   letter-spacing: -0.015em;
 }
-
 .distraction-title, h2, h3 {
   color: #f42;
   font-weight: 700;
   line-height: 1.1;
-}
-
-h2 {
-  font-family: "avalon", sans-serif;
-  font-size: 28px;
-  color: #f42;
-  font-weight: 700;
-  line-height: 31px;
-}
-
-.latest-container {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: auto;
-}
-
-.funding {
-  margin-bottom: 2em;
-}
-
-.funding-hdr {
-  margin-bottom: 24px;
-  display: flex;
-  flex-direction: column;
-}
-
-.links-funding-hdr {
-  display: flex;
-  flex-direction: column;
-}
-
-.funding-hdr a {
-  margin-top: 1em;
-}
-
-a {
-  color: #f42;
-  text-decoration: none;
-}
-
-u-row {
-  display: flex;
-  flex: 0 1 auto;
-  flex-flow: row wrap;
-  margin: 0;
-}
-
-.verticals {
-  margin-bottom: 2em;
-}
-
-.u-col-xs-12 {
-  flex-basis: 100%;
-  max-width: 100%;
-}
-
-class*=" u-col-"], [class^="u-col-"] {
-  flex: 0 0 auto;
-  padding: 8px;
-  position: relative;
-}
-
-.vertical {
-  min-height: 60px;
-  position: relative;
-}
-
-.catalog {
-  margin-bottom: 40px;
-}
-
-.u-row {
-  display: flex;
-  flex: 0 1 auto;
-  flex-flow: row wrap;
-  margin: 0;
-}
-
-.u-col-xs-12 {
-  flex-basis: 100%;
-  max-width: 100%;
-}
-
-[class*=" u-col-"], [class^="u-col-"] {
-  flex: 0 0 auto;
-  padding: 8px;
-  position: relative;
-}
-
-.latest-container {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: auto;
-}
-
-.latest-row {
-  width: 100%;
-  padding: 8px 8px;
-  flex-direction: column;
-}
-
-article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
-  display: block;
-}
-
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-  display: block;
-}
-.access {
-  position: fixed;
-  z-index: 10;
-  bottom: 0;
-  right: 0;
-  margin: 20px;
-  height: 45px;
-  width: 45px;
-  background-image: url(../img/access.png);
-  background-color: #146ff8;
-  border-radius: 50%;
-  transition: transform 1s;
-} */
-
-.funding {
-  margin-bottom: 2em;
-}
-
-.funding-hdr {
-  margin-bottom: 24px;
-  display: flex;
-  flex-direction: column;
-}
-
-.links-funding-hdr {
-  display: flex;
-  flex-direction: column;
-}
-
-.funding-hdr a {
-  margin-top: 1em;
-}
-
-a {
-  color: #f42;
-  text-decoration: none;
-}
-
-.u-row {
-  display: flex;
-  flex: 0 1 auto;
-  flex-flow: row wrap;
-  margin: 0;
-}
-
-.verticals {
-  margin-bottom: 2em;
-}
-
-.u-col-xs-12 {
-  flex-basis: 100%;
-  max-width: 100%;
-}
-
-[class*=" u-col-"], [class^="u-col-"] {
-  flex: 0 0 auto;
-  padding: 8px;
-  position: relative;
 }
 
 .vertical {
@@ -580,14 +464,6 @@ ol, ul {
   margin: 0;
 }
 
-article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
-  display: block;
-}
-
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-  display: block;
-}
-
 .access {
   position: fixed;
   z-index: 10;
@@ -600,4 +476,31 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   background-color: #146ff8;
   border-radius: 50%;
   transition: transform 1s;
+}
+
+@media (min-width: 1024px) {
+  .last-funding {
+    display: block;
+  }
+
+  .vertical {
+    padding: 12px;
+  }
+
+  .funding-hdr {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 768px){
+.support {
+    grid-area: support;
+}
+}
+
+.wrapper {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 1192px;
 }
