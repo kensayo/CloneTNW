@@ -458,7 +458,7 @@ li {
   .cover .distraction-title,
   .cover h2 {
     font-size: 20px;
-  } 
+  }
 
   .announcement {
     font-size: 12px;
@@ -1178,13 +1178,28 @@ h2 {
   z-index: 10;
   bottom: 0;
   right: 0;
-  margin: 20px;
-  height: 45px;
-  width: 45px;
-  background-image: url("../img/access.png");
+  margin-right: 10px;
+  height: 25px;
+  width: 25px;
   background-color: #146ff8;
-  border-radius: 50%;
-  transition: transform 1s;
+  transition: margin 0.5s, border-radius 0.5s;
+}
+
+.img-access {
+  padding: 3px;
+}
+
+@media (min-width: 1024px) {
+  .access {
+    margin: 15px;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+  }
+
+  .img-access {
+    padding: 7px;
+  }
 }
 
 .access:hover {
@@ -1305,4 +1320,3 @@ h3 a:hover {
   color: white;
   display: block;
 }
-
