@@ -1212,3 +1212,77 @@ h3 a:hover {
   cursor: pointer;
   color: white;
 }
+
+/* deals */
+
+.offer-text {
+  text-decoration: line-through;
+  font-size: 12px;
+}
+
+.caption-offer {
+  font-size: 14px;
+  color: #555;
+}
+
+/* footer */
+
+.main-footer {
+  height: 257px;
+}
+
+.top-footer {
+  height: 190px;
+  padding-top: 42px;
+  padding-bottom: 28px;
+  background-color: #131313;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.bottom-footer {
+  height: 97px;
+  padding-top: 39px;
+  padding-bottom: 39px;
+  background-color: #000;
+}
+
+.icon-circle {
+  background-color: #333;
+  border-radius: 50%;
+  padding: 10px;
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+}
+
+.social-center {
+  display: inherit;
+  margin: 0 auto;
+}
+
+.social-links {
+  display: inherit;
+  width: auto;
+  margin: 0 auto;
+}
+
+.footer-links {
+  color: #aaa;
+  font-size: 13px;
+  margin-top: 20px;
+}
+
+.link-footer {
+  margin-left: 5px;
+  font-family: sans-serif;
+}
+
+.caption-footer {
+  text-align: center;
+  color: white;
+  display: block;
+}
+
