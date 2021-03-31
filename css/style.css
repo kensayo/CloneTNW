@@ -984,6 +984,10 @@ h2 {
   position: relative;
 }
 
+.catalog1 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/1280px-GameStop_Globen-e1611550531323-368x276.jpg");
+}
+
 /* responsive catalog */
 
 @media (min-width: 768px) {
