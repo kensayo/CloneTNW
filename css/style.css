@@ -984,6 +984,78 @@ h2 {
   position: relative;
 }
 
+.catalog1 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/1280px-GameStop_Globen-e1611550531323-368x276.jpg");
+}
+
+.catalog2 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/1280px-20th_Anniversary_Schwab_Foundation_Gala_Dinner_44887783681-e1611132397581.jpg");
+}
+
+.catalog3 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Snag_b1616b8-368x276.png");
+}
+
+.catalog4 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2015/03/MacBook-USB-C-Feat-Img-730x365.jpg");
+}
+
+.catalog5 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/1-copy-48-368x276.jpg");
+}
+
+.catalog6 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/Untitled-design-13-368x276.png");
+}
+
+.catalog7 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/open-source-code-gq-368x276.png");
+}
+
+.catalog8 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/zoom-fundraising-gq-368x276.png");
+}
+
+.catalog9 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/toyota-suv-new-ev-car-future-electric-japan-368x276.jpg");
+}
+
+.catalog10 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/amplified-368x276.jpg");
+}
+
+.catalog11 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Edge-Logo.jpg");
+}
+
+.catalog12 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Apple-AR-glasses-headset.jpg");
+}
+
+.catalog13 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/1-copy-50.jpg");
+}
+
+.catalog14 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/Untitled-design-13.jpg");
+}
+
+.catalog15 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/google-logo-podium.png");
+}
+
+.catalog16 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/dev-leadership-gq.png");
+}
+
+.catalog17 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/hummer-ev-future-car-love-hate-next-gmc-gm-ultium.jpg");
+}
+
+.catalog18 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/bloodlines.jpg");
+}
+
 /* responsive catalog */
 
 @media (min-width: 768px) {
