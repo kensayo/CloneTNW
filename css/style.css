@@ -1140,3 +1140,111 @@ h3 a:hover {
   cursor: pointer;
   color: white;
 }
+
+* catalog */
+[class*=" u-col-"],
+[class^="u-col-"] {
+  flex: 0 0 auto;
+  padding: 8px;
+  position: relative;
+}
+
+.u-row {
+  display: flex;
+  flex: 0 1 auto;
+  flex-flow: row wrap;
+  margin: 0;
+}
+
+.catalog {
+  margin-bottom: 40px;
+}
+
+.u-col-xs-12 {
+  flex-basis: 100%;
+  max-width: 100%;
+}
+
+.topic h2 {
+  margin-bottom: 14px;
+}
+
+.arrowh2-topic {
+  background-image: url(https://img.icons8.com/color/48/000000/chevron-right.png);
+  background-size: 16px 16px;
+  content: "";
+  display: inline-block;
+  height: 16px;
+  margin-left: 4px;
+  position: relative;
+  top: 0;
+  width: 16px;
+}
+
+.topic-popular {
+  height: 0;
+  padding-top: 75%;
+  position: relative;
+  width: 100%;
+}
+
+.topic-popular-image {
+  background-color: #000;
+  background-size: cover;
+  background-position: 50%;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.topic-popular-trigger {
+  background: transparent url(../img/angryimg6.png) no-repeat;
+  background-size: 100% 100%;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.topic-popular-header {
+  bottom: 0;
+  left: 0;
+  padding: 14px;
+  position: absolute;
+  right: 0;
+  z-index: 3;
+}
+
+.topic-popular-section {
+  color: #fff;
+  font-size: 13px;
+  pointer-events: none;
+}
+
+.topic-popular-title {
+  margin-bottom: 6px;
+  color: #fff;
+  padding-left: 0;
+}
+
+.topic-popular-byline {
+  color: hsla(0, 0%, 100%, 0.6);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+.topic-popular-byline li {
+  display: block;
+  float: left;
+}
+
+.topic-popular-byline a {
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
