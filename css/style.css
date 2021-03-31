@@ -458,6 +458,10 @@ li {
   .cover .distraction-title,
   .cover h2 {
     font-size: 20px;
+  } 
+
+  .announcement {
+    font-size: 12px;
   }
 }
 
