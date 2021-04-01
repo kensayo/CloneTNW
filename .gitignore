@@ -1,0 +1,5 @@
+# .gitignore
+node_modules/
+*.json
+.hintrc
+.DS_store
