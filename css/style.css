@@ -353,7 +353,7 @@ li {
   }
 
   .nav-logo:hover {
-    background-image: url("/img/tenor.gif");
+    background-image: url("../img/tenor.gif");
     background-size: cover;
   }
 
